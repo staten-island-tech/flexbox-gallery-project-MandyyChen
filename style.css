@@ -28,8 +28,27 @@ h1{
     border-radius: 5px;
 }
 
-#blue{
-    background-color: rgb(139, 185, 196);
+#Babypink{
+    color: rgb(240, 231, 149);
+}
+
+#Pink{
+    color: rgb(228, 81, 220);
+}
+
+#Purple{
+    color: rgb(175, 134, 240);
+}
+
+#Blue{
+    color: rgb(139, 185, 196);
+}
+#Orange{
+    color: rgb(236, 184, 87);
+}
+
+#Celestia{
+    color: rgb(231, 156, 215);
 }
 
 .card-title {
