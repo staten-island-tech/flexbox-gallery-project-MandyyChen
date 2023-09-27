@@ -17,6 +17,14 @@ h1{
     font-family: 'Nunito', sans-serif;
     color: #284232;
     text-transform: uppercase;
+    animation-name: colorwave;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+@keyframes colorwave {
+   from {color: #406950;}
+   to {color: #284232;}
 }
 
 .card {
@@ -29,7 +37,7 @@ h1{
     align-items: center;
     justify-content: space-around;
     margin: 2.5rem 0;
-    filter: grayscale(.5);
+    filter: grayscale(.3);
     border-radius: 5px;
     transition: all 0.3s;
    
@@ -59,6 +67,12 @@ h1{
     margin: 2rem 0;
     font-family: 'PT Sans', sans-serif;
     color:#406950;
+    transition: all .5s;
+}
+
+.card-subtitle:hover {
+    color:#042b04;
+    font-size: 25px;
 }
 
 .card-image {
@@ -66,6 +80,10 @@ h1{
     height: 350px; 
     object-fit: cover;
     object-position: 55% 55%; 
+}
+
+#Sugarmane:hover {
+    content: url("img/SugarMane.jpg");
 }
 
 .container{
