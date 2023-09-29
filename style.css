@@ -23,7 +23,7 @@ h1{
 }
 
 @keyframes colorwave {
-   from {color: #406950;}
+   from {color: #b2d6c0;}
    to {color: #284232;}
 }
 
@@ -37,7 +37,7 @@ h1{
     align-items: center;
     justify-content: space-around;
     margin: 2.5rem 0;
-    filter: grayscale(.3);
+    filter: grayscale(.5);
     border-radius: 5px;
     transition: all 0.3s;
    
